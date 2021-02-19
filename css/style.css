@@ -1,0 +1,75 @@
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+body {
+    font-family: "Circular Std Book", sans-serif;
+}
+.stickyNav {
+    position: fixed;
+    width: 100%;
+    float: left;
+    z-index: 99;
+    top: 0;
+    background-color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.logo {
+    float:left;
+    width: 50px;
+}
+img {
+max-width: 100%;
+height: auto;
+width: auto;
+}
+.title {
+    float:left;
+    margin-left: 16px;
+}
+.navigation {
+    float: right;
+}
+.listItem {
+    display: inline;
+    list-style: none;
+    margin-left: 24px;
+    font-size: 24px
+}
+.listItem:hover {
+    color: #f2b8b1 
+}
+.container {
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.name img {
+    display: block;
+    height: 3em;
+    margin-right: 1.5em;
+    position: fixed;
+}
+h1 {
+    font-size: 36px;
+    margin: 0;
+    margin-top: 5px;
+}
+.heroImg {
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.hello {
+    border-bottom: #f2b8b1 6px solid;
+    display: inline;
+}
+.footerLinks {
+    float: right;
+}
+.footerLinks a {
+    margin: 5px;
+}
+.legal {
+    float: left;
+}
